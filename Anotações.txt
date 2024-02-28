@@ -1,0 +1,21 @@
+##COMANDO GIT##
+
+
+git log  verifica as alterações de log
+git log --oneline faz a verificação de forma resumida
+git chekout  traz um arquivo que foi excluido um commit realizado
+git revert HEAD reverte commits
+git commit -m  "escrever descrição da alteração"
+git push   /// envia os arquivos para o github
+git pull   /// faz o donwload das alterações do github
+git push origin "nome_branch"  /// subir nova branch para o github
+git clone link_do_repositório  -l nome_da_pasta   /// para baixar um repositório do github
+
+BRANCH
+git branch branch-a  /// cria uma branch
+git checkout -b branch-b   /// cria uma nova branch e vai direto para ela
+git banch branch-c master /// cria uma branch a partir de outra
+git branch -D /// deleta uma branch
+git merge feature/new_file  // merge é utilizado para copiar um arquivo de uma branch para outra
+
+ 
